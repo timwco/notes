@@ -1,0 +1,13 @@
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = false
+baseurl = "http://timw.co/"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "Hacker, Educator, Whiskey Drinker"
+  author = "Tim Whitacre"
