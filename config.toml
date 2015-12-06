@@ -3,6 +3,8 @@ layoutdir = "layouts"
 publishdir = "public"
 builddrafts = false
 baseurl = "http://timw.co/"
+paginate = 10
+title = "Tim Whitacre"
 
 [taxonomies]
   category = "categories"

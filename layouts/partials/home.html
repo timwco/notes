@@ -13,19 +13,19 @@
 <div class="home">
 
   <ul id="post-list">
-  {{ range first 10 (where .Data.Pages "Section" "post")}}
-      <li>
-        <a href="#">
-          <aside class="dates">{{ .Date.Format "Jan 2, 2006" }}</aside>
-        </a>
-        <a href="{{ .Permalink }}">{{ .Title }}</h2></a>
-      </li>
+    {{ $paginator := .Paginate (where .Data.Pages "Section" "post") }}
+    {{ range $paginator.Pages }}
+        <li>
+          <a href="#">
+            <aside class="dates">{{ .Date.Format "Jan 2, 2006" }}</aside>
+          </a>
+          <a href="{{ .Permalink }}">{{ .Title }}</h2></a>
+        </li>
     {{ end }}
   </ul>
 
   <div class="pagination">
-      <a class="pagination-link" href="#" class="previous"><span class="arrow">&larr;</span> Previous</a>
-      <a class="pagination-link" href="#" class="next">Next <span class="arrow">&rarr;</span></a>
+    {{ partial "pagination.html" $paginator }}
   </div>
 
 </div>
