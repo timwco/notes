@@ -1,0 +1,31 @@
+<!-- Brief intro -->
+<div class="header-intro">
+  <h2>Tim Whitacre</h2>
+  <p>
+    <a href="https://github.com/twhitacre">Hacker</a>, 
+    <a href="http://theironyard.com">Educator</a>, 
+    <a href="http://whiskeylist.co/">Whiskey Drinker</a>
+  </p>
+</div>
+<hr />
+<!-- End intro -->
+
+<div class="home">
+
+  <ul id="post-list">
+  {{ range first 10 (where .Data.Pages "Section" "post")}}
+      <li>
+        <a href="#">
+          <aside class="dates">{{ .Date.Format "Jan 2, 2006" }}</aside>
+        </a>
+        <a href="{{ .Permalink }}">{{ .Title }}</h2></a>
+      </li>
+    {{ end }}
+  </ul>
+
+  <div class="pagination">
+      <a class="pagination-link" href="#" class="previous"><span class="arrow">&larr;</span> Previous</a>
+      <a class="pagination-link" href="#" class="next">Next <span class="arrow">&rarr;</span></a>
+  </div>
+
+</div>
