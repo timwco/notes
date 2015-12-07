@@ -4,7 +4,7 @@ categories:
 - Life
 date: '2012-03-20'
 permalink: /wordpress-get-rounded-of-posts/
-title: 'WordPress &#8211; Get Rounded # of Posts'
+title: 'WordPress - Get Rounded # of Posts'
 url: /post/wordpress-get-rounded-of-posts/
 ---
 

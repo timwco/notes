@@ -4,7 +4,7 @@ categories:
 - Life
 date: '2013-10-29'
 permalink: /code-tonic-on-github/
-title: Code &amp; Tonic on GitHub
+title: Code & Tonic on GitHub
 url: /post/code-tonic-on-github/
 ---
 

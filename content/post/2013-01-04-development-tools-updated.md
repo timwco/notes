@@ -4,7 +4,7 @@ categories:
 - Life
 date: '2013-01-04'
 permalink: /development-tools-updated/
-title: Development Tools &#8211; Updated
+title: Development Tools - Updated
 url: /post/development-tools-updated/
 ---
 

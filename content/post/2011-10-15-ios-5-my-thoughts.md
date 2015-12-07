@@ -4,7 +4,7 @@ categories:
 - Life
 date: '2011-10-15'
 permalink: /ios-5-my-thoughts/
-title: iOS 5 &#8211; My Thoughts
+title: iOS 5 - My Thoughts
 url: /post/ios-5-my-thoughts/
 ---
 

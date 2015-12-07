@@ -4,7 +4,7 @@ categories:
 - Life
 date: '2012-01-10'
 permalink: /duckduckgo-just-works/
-title: DuckDuckGo &#8230; just works!
+title: DuckDuckGo - just works!
 url: /post/duckduckgo-just-works/
 ---
 

@@ -4,7 +4,7 @@ categories:
 - Life
 date: '2011-08-11'
 permalink: /purple-door-mobile-app/
-title: Purple Door &#8211; Mobile App
+title: Purple Door - Mobile App
 url: /post/purple-door-mobile-app/
 ---
 

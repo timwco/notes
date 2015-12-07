@@ -4,7 +4,7 @@ categories:
 - Life
 date: '2012-10-03'
 permalink: /guitars-pedals/
-title: Guitars &amp; Pedals
+title: Guitars & Pedals
 url: /post/guitars-pedals/
 ---
 
