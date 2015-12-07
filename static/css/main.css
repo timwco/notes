@@ -368,7 +368,7 @@ pre>code {
 .wrapper {
     max-width: 600px;
     margin: 0 auto;
-    padding: 50px 0px
+    padding: 125px 0px
 }
 
 @media screen and (max-width: 700px) {
@@ -414,7 +414,7 @@ pre>code {
 
 .header-container {
     position: fixed;
-    bottom: 0px;
+    top: 0px;
     width: 100%;
     height: 70px;
     background: #3366ff;
@@ -429,31 +429,6 @@ pre>code {
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     transition: 0.5s
-}
-
-.headroom {
-    -webkit-transition: transform 200ms linear;
-    -moz-transition: transform 200ms linear;
-    -ms-transition: transform 200ms linear;
-    -o-transition: transform 200ms linear;
-    transition: transform 200ms linear
-}
-
-.headroom--pinned {
-    display: block;
-    -moz-transform: translateY(0%);
-    -o-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%)
-}
-
-.headroom--unpinned {
-    -moz-transform: translateY(100%);
-    -o-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%)
 }
 
 .avatar {
@@ -557,6 +532,13 @@ nav.site-nav a.page-link {
     font-size: 20px
 }
 
+.note-heading {
+    font-size: 16px;
+    border-bottom: 1px solid #dfe1e4;
+    color: #aaaaaa;
+    padding-bottom: 10px;
+}
+
 #post-list {
     margin-left: 0;
     list-style: none
@@ -583,7 +565,7 @@ a,
 
 #post-list,
 #archive-list {
-    margin-top: 50px
+    margin-top: 25px
 }
 
 #post-list li,

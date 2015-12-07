@@ -12,6 +12,8 @@
 
 <div class="home">
 
+  <h4 class="note-heading">Notes</h4>
+
   <ul id="post-list">
     {{ $paginator := .Paginate (where .Data.Pages "Section" "post") }}
     {{ range $paginator.Pages }}

@@ -4,8 +4,9 @@ categories:
 - Life
 date: '2014-08-04'
 permalink: /developer-resources/
-title: Developer Resources
+title: Resources
 url: /post/developer-resources/
+menu: main
 ---
 
 ***Below is a list of ever-changing resources that I use, love and desire to share. Please enjoy responsibly.***
