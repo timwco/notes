@@ -1,12 +1,18 @@
 +++
-categories = ["x", "y"]
 date = "2015-12-06T12:15:28-05:00"
-tags = ["x", "y"]
 title = "About"
 url = "/about"
 menu = "main"
 +++
 
-I'm Tim, a <a href="http://github.com/twhitacre" target="_blank">hacker</a>, <a href="http://theironyard.com/" target="_blank">educator</a>, and whiskey drinker currently living in Atlanta.
+I'm Tim, a [hacker][1], [educator][2], and whiskey drinker currently living in Atlanta.
 
-When not working on a project you can find me playing music, spending time with my <a href="http://stephwhitacre.com/" target="_blank">wife</a> or getting to know the city of Atlanta.
+When not working on a project you can find me playing music, spending time with my [wife][3] or getting to know the city of Atlanta.
+
+You can also find me on [Linkedin][4] and [Instagram][5] if you are into those kinds of things.
+
+ [1]: "http://github.com/twhitacre"
+ [2]: "http://stephwhitacre.com/"
+ [3]: "http://theironyard.com/"
+ [4]: "https://www.linkedin.com/in/twhitacre"
+ [5]: "https://instagram.com/timwco"
