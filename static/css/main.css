@@ -563,7 +563,7 @@ nav.site-nav a.page-link {
 }
 
 #post-list>li {
-    margin-bottom: 19px
+    margin-bottom: 10px
 }
 
 a,
@@ -596,8 +596,8 @@ a,
 }
 
 #post-list li+li {
-    padding-top: 20px;
-    border-top: 1px solid #DFE1E4
+/*    padding-top: 20px;
+    border-top: 1px solid #DFE1E4*/
 }
 
 #post-list a {
@@ -718,8 +718,11 @@ a,
     font-size: 13px;
     font-weight: bold;
     border-radius: 4px;
-    padding: 7px 18px 6px;
-    box-shadow: 0 0 0 1px #087bbe;
+/*    padding: 7px 18px 6px;
+    box-shadow: 0 0 0 1px #087bbe;*/
+}
+.pagination-right {
+    float: right;
 }
 
 span.arrow {

@@ -16,7 +16,7 @@
     {{ $paginator := .Paginate (where .Data.Pages "Section" "post") }}
     {{ range $paginator.Pages }}
         <li>
-          <a href="#">
+          <a href="{{ .Permalink }}">
             <aside class="dates">{{ .Date.Format "Jan 2, 2006" }}</aside>
           </a>
           <a href="{{ .Permalink }}">{{ .Title }}</h2></a>

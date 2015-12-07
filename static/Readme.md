@@ -1,0 +1,1 @@
+> [Hugo](https://gohugo.io) Generated static site. See source repo [here](https://github.com/twhitacre/GoTim)
