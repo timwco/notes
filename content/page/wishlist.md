@@ -23,6 +23,8 @@ This is mostly here for family and friends.
   - [Jerky Making Kit](https://www.fleishers.com/products/diy-jerky-kit/)
 
 #### Drank
+  - [Flask](http://www.vsslgear.com/collections/vssl/products/flask)
+  - [Different Flask](http://www.amazon.com/exec/obidos/ASIN/B00RZRKDK8)
   - [Blanton's Bourbon](https://www.blantonsbourbon.com/)
   - [Laphroaig Single Malt](http://www.laphroaig.com/)
   - [Starbucks Gift Cards](http://www.starbucks.com/)
