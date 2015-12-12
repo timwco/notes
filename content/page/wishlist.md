@@ -33,3 +33,4 @@ This is mostly here for family and friends.
 
 #### Nerd Stuff
   - [Apple TV *New One*](http://www.apple.com/tv/)
+  - [Go](http://www.amazon.com/Magnetic-Single-Convex-Plastic-Stones/dp/B00CPK4MVQ/ref=sr_1_8?ie=UTF8&qid=1449895779&sr=8-8&keywords=go+game)
