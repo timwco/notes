@@ -8,6 +8,9 @@ find . ! -name '.git' -type f -exec rm -f {} +
 find . ! -name '.git' -type d -exec rm -rf {} +
 cd ..
 
+# Run the basic static file build tool
+gulp
+
 # Build the project.
 hugo
 
