@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Design Question &middot; Tim Whitacre | Notes</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,300italic,900">
+  <link rel="stylesheet" href="http://timw.co/css/main.css" />
+  <link href="" rel="alternate" type="application/rss+xml" title="Tim Whitacre | Notes" />
+</head>
+<body class="home fancy-captions format-lede round-avatars">
+  <header class="page-head wrapper" role="banner">
+    <div class="split page-head__section">
+      <div class="split__title">
+        <h1 class="page-head__blog-name milli">
+						<a href="/">Tim Whitacre's Notes</a>
+					</h1>
+      </div>
+    </div>
+  </header>
+
+<div class="wrapper">
+  <article id="post-16" class="post-16 post type-post status-publish format-standard hentry category-uncategorized js-gallery">
+    <h1 class="post-title">Responsive Design Question</h1>
+    <div class="post-body js-gallery mb">
+      <p>First off&#8230;. if you are unfamiliar with the term &#8220;responsive web design&#8221; (RWD) check out <a href="http://www.alistapart.com">A List Apart</a>&rsquo;s article on <a href="http://www.alistapart.com/articles/responsive-web-design/">responsive web design</a>.</p>
+
+<p>Now that that&rsquo;s out of the way. I&rsquo;d like to take a look at a recent issue brought up by a client I was working with. In building out their website with <a href="http://foundation.zurb.com/">fluid grids</a> and RWD, we came across a small issue. That issue was that when a visitor of the website was using a tablet, phone or any smaller-dimension browsing device, there was no way for them to get back to a full site view.</p>
+
+<p><a href="http://timw.co/wp-content/uploads/2012/03/largeGrid.png"><img class="aligncenter size-full wp-image-342" title="largeGrid" src="http://timw.co/wp-content/uploads/2012/03/largeGrid.png" alt="" width="615" height="242" /></a></p>
+
+<p>This may sound a little strange, but it got me thinking. Remember when mobile versions of a website because really popular? Remember when <a href="http://jquerymobile.com/">jQuery mobile</a> came out? Both of these solutions came about because we wanted an easy way to present our websites to clients on smaller devices, especially phones. While iPhones and Android browsers are great, sometimes you want a smaller version of the website to quickly navigate around and get the information you came seeking. Unfortunately not everyone has the money or really even needs a full blown native mobile app, but pretty much everyone these days should consider some sort of mobile solution. This is what spawned the mobile version of websites and ultimately the need for responsive design. Shortly after the creation of mobile version websites, developers needed a way to give the visitor the ability to go back to the &#8220;desktop version&#8221; of a site while on their phones. This is because generally speaking, a mobile version of a website is quite a bit different than the desktop version. Usually there are less images and less interactive features. Mobile websites generally focus more on content than anything else. The idea is to give the reader a quick overview or snapshot of what your company does.</p>
+
+<p>So, back to my original problem. When creating a website using RWD, does one need to include a way to go back to a desktop version? You see, a mobile version a lot of times sits on a subdomain like <em>mobile.domain.com</em> or <em>m.domain.com</em>. With RWD, there is no &#8220;other version&#8221; of the website but rather you use <a href="http://reference.sitepoint.com/css/mediaqueries">CSS3 media queries</a> to determine how the content is portrayed to the visitor depending on the dimensions of their browsing window. Since it&rsquo;s not a separate version of the site, how and more importantly should you include a way to go back to a full desktop version.</p>
+
+<p><a href="http://timw.co/wp-content/uploads/2012/03/smallGrid.png"><img class="aligncenter size-full wp-image-341" title="smallGrid" src="http://timw.co/wp-content/uploads/2012/03/smallGrid.png" alt="" width="615" height="158" /></a></p>
+
+<p>When I first started using RWD over a year ago, I didn&rsquo;t ever consider this. I figured since we would still be showing the exact same site with just little bit less flair, the visitor didn&rsquo;t need a way to &#8220;go back&#8221;. Recently though, as many companies are embracing this technology, I find myself more and more frustrated that I can&rsquo;t view certain sites on my iPhone the way they were originally meant to be viewed. There is not way to go back. After having a brief discussion with this client I&rsquo;m currently working with, they decided they did want a way to do this.</p>
+
+<p>To not drag this on any further, I&rsquo;ve decided that it&rsquo;s much better to just give the visitors the choice. How can this be handled? Well there are many ways to tackle this from a programming standpoint. The BEST way, in my opinion, is to take care of it using your server-side language and setting either a temporary cookie or using a session to create an ID on the body tag that will override all of the media queries and thus presenting the site in its original format. It&rsquo;s not a small task, but once you build it into the framework of your choice, it will be done.</p>
+
+<p>I have yet to do this on my website, which currently utilizes RWD, but when I get time I&rsquo;ll post up the code example of how I did it in case you are wondering. In the meantime, feel post a comment below or share your thoughts.</p>
+
+<p>&nbsp;</p>
+
+    </div>
+
+    <div class="meta mb+ split split--responsive">
+      <div class="split__title">
+        <time>Mar 3, 2012</time>
+        <span class=""></span>
+      </div>
+    </div>
+  </article>
+</div>
+    <footer class="footer" role="contentinfo">
+      <div class="wrapper wrapper--wide split split--responsive">
+        <div class="split__title">
+          &copy; 2016 All rights reserved. 
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

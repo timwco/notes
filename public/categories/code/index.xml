@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Tim Whitacre | Notes</title>
+    <link>http://timw.co/categories/code/</link>
+    <description>Recent content in Code on Tim Whitacre | Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 01 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://timw.co/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installing Go</title>
+      <link>http://timw.co/post/install-go/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://timw.co/post/install-go/</guid>
+      <description>&lt;p&gt;Ok, so I&amp;#8217;ve been playing around with &lt;a href=&#34;http://golang.org&#34;&gt;Go&lt;/a&gt; for a while now and have been highly impressed. Recently, when my computer crashed and I was forced to get a new one, I was so busy that I only installed what I needed to get back up and running. This weekend, I had some free time and wanted to play with Go a little more, so I though I&amp;#8217;d share my super simple process of getting it set up. Here we &lt;a href=&#34;http://www.urbandictionary.com/define.php?term=pun+intended&#34;&gt;go&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;First, like most tools I use on my Mac, I wanted to install Go using &lt;a href=&#34;http://brew.sh&#34;&gt;Homebrew&lt;/a&gt;. First step.&lt;/p&gt;
+
+&lt;pre&gt;&lt;/p&gt;
+
+
+&lt;p&gt;
+  $ brew upgrade &amp;&amp; brew update
+&lt;/p&gt;
+
+
+&lt;p&gt;
+  &lt;/pre&gt;
+  
+
+&lt;p&gt;&lt;p&gt;
+    This will make sure that Homebrew is up to date and all of your packages are as well. The &lt;span class=&#39;code-inline&#39;&gt;upgrade&lt;/span&gt; command isn&amp;#8217;t neccessary, but I usually do it before I install any new tool. Next up, let&amp;#8217;s install it.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  $ brew install go
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;/pre&gt;
+  
+  
+  &lt;p&gt;
+    See how easy that was. It will take a minute, but seriously that&amp;#8217;s it for the installation. Now, we just need to do some config. Navigate to your &lt;span class=&#39;code-inline&#39;&gt;$HOME&lt;/span&gt; directory, for the rest of these commands.
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;pre&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  $ mkdir go
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;/pre&gt;
+  
+  
+  &lt;p&gt;
+    The above folder is where your programs will be stored and run from. You could also use &lt;span class=&#39;code-inline&#39;&gt;golang&lt;/span&gt; or anything else. I prefer just &lt;span class=&#39;code-inline&#39;&gt;go&lt;/span&gt;, but it&amp;#8217;s up to you. Assuming you created a directory called &lt;span class=&#39;code-inline&#39;&gt;go&lt;/span&gt;, let&amp;#8217;s go ahead and put your Github account in there to make our lives easier later. Just replace &lt;span class=&#39;code-inline&#39;&gt;username&lt;/span&gt; with your Github username.
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;pre&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  $ mkdir -p ~/go/src/github.com/username
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;/pre&gt;
+  
+  
+  &lt;p&gt;
+    Now, let&amp;#8217;s tell our computer where these files are, so we have access to the executables. Depeneing on whether you use Bash or ZSH, you will either put the folling in your &lt;span class=&#39;code-inline&#39;&gt;.bashrc&lt;/span&gt; or your &lt;span class=&#39;code-inline&#39;&gt;.zshrc&lt;/span&gt;.
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;pre&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  # Configuring Go
+&lt;/p&gt;
+
+&lt;p&gt;
+  export GOPATH=$HOME/go
+&lt;/p&gt;
+
+&lt;p&gt;
+  export GOROOT=/usr/local/opt/go/libexec
+&lt;/p&gt;
+
+&lt;p&gt;
+  export PATH=$PATH:$GOPATH/bin
+&lt;/p&gt;
+
+&lt;p&gt;
+  export PATH=$PATH:$GOROOT/bin
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;/pre&gt;
+  
+  
+  &lt;p&gt;
+    Lastly, let&amp;#8217;s test it all out by installing some tools to make our lives easier. First, make sure to restart your Terminal, then run the following.
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;pre&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  $ go get golang.org/x/tools/cmd/godoc
+&lt;/p&gt;
+
+&lt;p&gt;
+  $ go get golang.org/x/tools/cmd/vet
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;/pre&gt;
+  
+  
+  &lt;p&gt;
+    That&amp;#8217;s it. Enjoy.
+  &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Switching to Vim</title>
+      <link>http://timw.co/post/vim/</link>
+      <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://timw.co/post/vim/</guid>
+      <description>&lt;p&gt;As you can see from some of my &lt;a href=&#34;http://timw.co/development-tools-updated/&#34;&gt;previous posts&lt;/a&gt;, I’ve been a Sublime Text user for along time now. I started with ST2 and have been using ST3 for about the past year. When I started teaching at [The Iron Yard][2]. I did this because it is free, open source and a great tool for new developers to use. I still stand by my choice to use this in class and push my students to use it. As a new developer one of the best skills you can learn is version control. Since Atom has tools for git and Github built right in, it helps drive the point home.&lt;/p&gt;
+
+&lt;p&gt;While Atom is a great editor, personally for me it doesn’t stand up to Sublime. It’s possible it is just because I’ve been so engrained in it for so long, but no matter how hard I tried I could not make the complete switch.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Fast-forward to the last few months. I’ve been getting nervous about the state of Sublime. Up until August of this year, there had been no updates and even then it wasn’t much. I’m not sure what the scoop is, but when you spend the majority of your time in a program you want to know it will last. I’m not convinced that it will.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;I decided it was finally time to make the switch to one that will hopefully be around for a long time, Vim. You see, Vim has already been around for a long time and is built into most operating systems so anywhere I go I can start to make use of it without much configuration. This doesn’t mean that Vim isn’t configurable though. Take a look at the screenshot below, you’ll see I’ve added quite a bit to mine.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;So far, I love it. I find myself spending hours in it without ever leaving. I am at that point in my career where I can program for quite a while without opening a browser, especially when I write good tests. Switching to Vim has further pushed me to continue coding and testing and then debugging in my browser when I need to.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;If you are interested in my setup, colors, or plugins, you can see them all in my &lt;a href=&#34;https://github.com/twhitacre/.dotfiles&#34;&gt;.dotfiles repo&lt;/a&gt; on Github.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;margin-top: 5px; margin-right: 5px; margin-bottom: 5px; max-height: none; max-width: 100%;&#34; src=&#34;http://timw.co/wp-content/uploads/2014/11/vimscreenshot.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;[2]: &lt;a href=&#34;http://theironyard.com)&#34;&gt;http://theironyard.com)&lt;/a&gt;, I tried to switch to [Atom](&lt;a href=&#34;http://atom.io&#34;&gt;http://atom.io&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
