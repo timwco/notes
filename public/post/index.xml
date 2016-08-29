@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Tim Whitacre | Notes</title>
-    <link>http://timw.co/post/</link>
+    <link>http://timw.co/notes/post/</link>
     <description>Recent content in Posts on Tim Whitacre | Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 09 Nov 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://timw.co/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://timw.co/notes/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Aaron Draplin - WTF Podcast</title>
-      <link>http://timw.co/post/draplin-wtf/</link>
+      <link>http://timw.co/notes/post/draplin-wtf/</link>
       <pubDate>Mon, 09 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/draplin-wtf/</guid>
+      <guid>http://timw.co/notes/post/draplin-wtf/</guid>
       <description>&lt;p&gt;So, I&amp;#8217;m a huge Aaron Draplin fan (&lt;a href=&#34;https://instagram.com/p/2IAym6JGzZ/&#34;&gt;proof&lt;/a&gt;), and he was recently featured on the &lt;a href=&#34;http://www.wtfpod.com/podcast/episodes/episode_649_-_aaron_draplin&#34;&gt;WTF Podcast&lt;/a&gt; with Marc Maron. It was on Designer News a week or so ago, but I finally got around to listening to it. Glad I did. Great interview.&lt;/p&gt;
 
 &lt;p&gt;Check out &lt;a href=&#34;http://www.wtfpod.com/podcast/episodes/episode_649_-_aaron_draplin&#34;&gt;the episode here&lt;/a&gt;. (&lt;em&gt;&lt;small&gt;NSFW language&lt;/small&gt;&lt;/em&gt;).&lt;/p&gt;
@@ -22,10 +22,10 @@
     
     <item>
       <title>Podcasts 2015</title>
-      <link>http://timw.co/post/podcasts-2015/</link>
+      <link>http://timw.co/notes/post/podcasts-2015/</link>
       <pubDate>Wed, 04 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/podcasts-2015/</guid>
+      <guid>http://timw.co/notes/post/podcasts-2015/</guid>
       <description>
 
 &lt;p&gt;About 2 years ago, I took a job at a company which was about 35 minutes from my house. Having such a long commute, I started looking for other things to occupy my time in the car than just music. Enter podcasts. I was hooked right away. Since moving to Atlanta and having a 45 minute to 1.5 hour commute, I love being able to passively learn while driving (or sitting in traffic). As such, I thought I&amp;#8217;d put together a list of the Podcasts that I&amp;#8217;m &lt;em&gt;currenty&lt;/em&gt; enjoying.&lt;/p&gt;
@@ -76,10 +76,10 @@
     
     <item>
       <title>Installing Go</title>
-      <link>http://timw.co/post/install-go/</link>
+      <link>http://timw.co/notes/post/install-go/</link>
       <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/install-go/</guid>
+      <guid>http://timw.co/notes/post/install-go/</guid>
       <description>&lt;p&gt;Ok, so I&amp;#8217;ve been playing around with &lt;a href=&#34;http://golang.org&#34;&gt;Go&lt;/a&gt; for a while now and have been highly impressed. Recently, when my computer crashed and I was forced to get a new one, I was so busy that I only installed what I needed to get back up and running. This weekend, I had some free time and wanted to play with Go a little more, so I though I&amp;#8217;d share my super simple process of getting it set up. Here we &lt;a href=&#34;http://www.urbandictionary.com/define.php?term=pun+intended&#34;&gt;go&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;First, like most tools I use on my Mac, I wanted to install Go using &lt;a href=&#34;http://brew.sh&#34;&gt;Homebrew&lt;/a&gt;. First step.&lt;/p&gt;
@@ -198,10 +198,10 @@
     
     <item>
       <title>Things To Do</title>
-      <link>http://timw.co/post/todo/</link>
+      <link>http://timw.co/notes/post/todo/</link>
       <pubDate>Mon, 06 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/todo/</guid>
+      <guid>http://timw.co/notes/post/todo/</guid>
       <description>&lt;p&gt;I’m a pretty detailed oriented person and try extremely hard to never forget to do something. When a person forgets to do something they said they would, they are not only hurting themselves but many times they are hurting the progress of someone else. I learned this early on in my marriage, and even though I still mess up, I feel like I’ve gotten a lot better at it. I’ve even been able to use the same techniques at my &lt;a href=&#34;http://theironyard.com&#34;&gt;job&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here’s how I get things done.&lt;/p&gt;
@@ -228,10 +228,10 @@
     
     <item>
       <title>How I Use Twitter</title>
-      <link>http://timw.co/post/twitter/</link>
+      <link>http://timw.co/notes/post/twitter/</link>
       <pubDate>Sat, 04 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/twitter/</guid>
+      <guid>http://timw.co/notes/post/twitter/</guid>
       <description>
 
 &lt;p&gt;First off, I would not consider myself to be a Twitter “power user”, but I do use Twitter a lot. The main reason I use and love twitter is because I treat it as a curated list of great content. It’s curated by people I trust, respect and have actively chosen to keep up with.&lt;/p&gt;
@@ -274,10 +274,10 @@
     
     <item>
       <title>Twenty Fifteen</title>
-      <link>http://timw.co/post/twenty-fifteen/</link>
+      <link>http://timw.co/notes/post/twenty-fifteen/</link>
       <pubDate>Sun, 25 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/twenty-fifteen/</guid>
+      <guid>http://timw.co/notes/post/twenty-fifteen/</guid>
       <description>
 
 &lt;p&gt;Well, it’s 2015 and I’ve not written in over 2 months. Since it’s a new year, my first post hast to be the grossly overdone “resolution” type. So, here goes.&lt;/p&gt;
@@ -312,10 +312,10 @@
     
     <item>
       <title>Switching to Vim</title>
-      <link>http://timw.co/post/vim/</link>
+      <link>http://timw.co/notes/post/vim/</link>
       <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/vim/</guid>
+      <guid>http://timw.co/notes/post/vim/</guid>
       <description>&lt;p&gt;As you can see from some of my &lt;a href=&#34;http://timw.co/development-tools-updated/&#34;&gt;previous posts&lt;/a&gt;, I’ve been a Sublime Text user for along time now. I started with ST2 and have been using ST3 for about the past year. When I started teaching at [The Iron Yard][2]. I did this because it is free, open source and a great tool for new developers to use. I still stand by my choice to use this in class and push my students to use it. As a new developer one of the best skills you can learn is version control. Since Atom has tools for git and Github built right in, it helps drive the point home.&lt;/p&gt;
 
 &lt;p&gt;While Atom is a great editor, personally for me it doesn’t stand up to Sublime. It’s possible it is just because I’ve been so engrained in it for so long, but no matter how hard I tried I could not make the complete switch.&lt;/p&gt;
@@ -352,10 +352,10 @@
     
     <item>
       <title>Blogging Platforms</title>
-      <link>http://timw.co/post/blogging-platforms/</link>
+      <link>http://timw.co/notes/post/blogging-platforms/</link>
       <pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/blogging-platforms/</guid>
+      <guid>http://timw.co/notes/post/blogging-platforms/</guid>
       <description>
 
 &lt;p&gt;As an instructor at &lt;a href=&#34;http://theironyard.com&#34;&gt;The Iron Yard&lt;/a&gt;, I get asked this question a lot. Here is a VERY simple breakdown of some of my thoughts on different platforms. This is by no means comprehensive, but I feel it gives a pretty solid overview of the platforms I&amp;rsquo;ve had experience with.&lt;/p&gt;
@@ -469,10 +469,10 @@
     
     <item>
       <title>On Learning</title>
-      <link>http://timw.co/post/learning/</link>
+      <link>http://timw.co/notes/post/learning/</link>
       <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/learning/</guid>
+      <guid>http://timw.co/notes/post/learning/</guid>
       <description>&lt;p&gt;We are past the halfway mark for the first Front End class in Atlanta. We are moving fast and everyone is keeping up in an incredible way.&lt;/p&gt;
 
 &lt;p&gt;We have walked through a handful of tools, libraries and frameworks. We have also spent a good amount of time talking through programming theory and best practice. One of the pieces that makes The Iron Yard stand out is that we put a large focus on learning how to learn. Let’s face it, in 12 weeks we can’t even begin to cover every library and framework and every aspect of HTML5. Let’s not forget about what’s coming in ECMAScript 6. Sure we’ve talked about it, but more importantly, we’ve talked about the fact that it’s coming and how it won’t stop there. New frameworks are coming out every week and the best way to keep up is to learn what to look for. It helps to have a broad enough understanding of the language to break it down and judge for yourself if it will be useful to you or not.&lt;/p&gt;
@@ -487,10 +487,10 @@
     
     <item>
       <title>Resources</title>
-      <link>http://timw.co/post/developer-resources/</link>
+      <link>http://timw.co/notes/post/developer-resources/</link>
       <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/developer-resources/</guid>
+      <guid>http://timw.co/notes/post/developer-resources/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Below is a list of ever-changing resources that I use, love and desire to share. Please enjoy responsibly.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -589,10 +589,10 @@
     
     <item>
       <title>On Perseverance</title>
-      <link>http://timw.co/post/perseverance/</link>
+      <link>http://timw.co/notes/post/perseverance/</link>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/perseverance/</guid>
+      <guid>http://timw.co/notes/post/perseverance/</guid>
       <description>&lt;p&gt;It is hard to believe Atlanta’s first Front End Engineering class is now finishing their fourth week. I think back to the dinner we had together the night before class began. Here was a group coming from all over, meeting for the first time and embarking on a twelve week journey. We all came from different backgrounds, states, and skill levels; yet we all shared a common commitment to grow and learn.&lt;/p&gt;
 
 &lt;p&gt;Like any legendary journey, the most rewarding roads are also the most difficult. By the third week of class, I began to notice tired eyes and messed up hair &amp;#8211; probably the result of sleeping on campus the night before. Many became weary in their exploration, their discouragement obvious from their sighs as they stared at their monitor or the open conversation they had with me about their struggles. As much as I wanted to tell them to take a week off, I knew that reaching our destination in twelve weeks would mean pushing forward to the end goal.&lt;/p&gt;
@@ -609,10 +609,10 @@
     
     <item>
       <title>Joining the Iron Yard</title>
-      <link>http://timw.co/post/joining-the-iron-yard/</link>
+      <link>http://timw.co/notes/post/joining-the-iron-yard/</link>
       <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/joining-the-iron-yard/</guid>
+      <guid>http://timw.co/notes/post/joining-the-iron-yard/</guid>
       <description>&lt;p&gt;I’ve had the privilege over the years to work with some amazing companies and startups and am excited to bring my experiences into the classroom. For me, being able to spend my days building and talking about development is a dream come true.&lt;/p&gt;
 
 &lt;p&gt;I first got into programming about 12 years ago and had to learn everything on my own. There was no Iron Yard, no online training and just a few books I could find at the library. Even then I still found that the best way to learn was to immerse myself and to actually build something. It wasn’t too long after that I developed my first app, began attending JavaScript conferences and started to feel like a part of the community.&lt;/p&gt;
@@ -625,10 +625,10 @@
     
     <item>
       <title>Something Crazy</title>
-      <link>http://timw.co/post/something-crazy/</link>
+      <link>http://timw.co/notes/post/something-crazy/</link>
       <pubDate>Tue, 13 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/something-crazy/</guid>
+      <guid>http://timw.co/notes/post/something-crazy/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;I&amp;rsquo;m going to challenge you to do something crazy&amp;#8230;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -645,10 +645,10 @@
     
     <item>
       <title>The Year for Whisk(e)y</title>
-      <link>http://timw.co/post/the-year-for-whiskey/</link>
+      <link>http://timw.co/notes/post/the-year-for-whiskey/</link>
       <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/the-year-for-whiskey/</guid>
+      <guid>http://timw.co/notes/post/the-year-for-whiskey/</guid>
       <description>&lt;p&gt;If you’ve followed me on &lt;a href=&#34;https://twitter.com/timwco&#34;&gt;twitter&lt;/a&gt; or &lt;a href=&#34;http://instagram.com/timwco&#34;&gt;instagram&lt;/a&gt; you know that I like to indulge once in a while. So far my drink of choice has been gin. &lt;a href=&#34;http://instagram.com/p/jkzy3AJG50/&#34;&gt;Plymouth Gin&lt;/a&gt; to be exact. As great as gin is, I have been told I should be drinking whiskey, at least some of the time. This includes all forms, bourbon, scotch, irish, rye and the likes. I’ll be honest, so far my favorite is rye with scotch being a close second but I have a long list to try and will hopefully be adding to the list as time goes on.&lt;/p&gt;
 
 &lt;p&gt;Even my wife is pushing me towards it by getting me the book &lt;a href=&#34;http://www.amazon.com/Drink-More-Whiskey-Everything-Favorite/dp/1452109745&#34;&gt;Drink More Whiskey&lt;/a&gt; as well as some nice &lt;a href=&#34;http://buck4men.bigcartel.com/product/buck-signature-low-ball-glass&#34;&gt;low ball glasses&lt;/a&gt;, whiskey stones and everything else one might need.&lt;/p&gt;
@@ -661,10 +661,10 @@
     
     <item>
       <title>So Many Bookmarks</title>
-      <link>http://timw.co/post/so-many-bookmarks/</link>
+      <link>http://timw.co/notes/post/so-many-bookmarks/</link>
       <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://timw.co/post/so-many-bookmarks/</guid>
+      <guid>http://timw.co/notes/post/so-many-bookmarks/</guid>
       <description>&lt;p&gt;I don’t have to tell you this, but there is a lot of stuff on the internet. Obviously most of it is junk, but there is a lot of great content. This begs the question, “how do I consume it all” or rather, “how do I consume as much as I can that is relevant to me so I can keep up to speed in my industry”. This is not an easy task and because content and the way content is presented continually changes, you almost have no choice but to use some sort of service to help you keep up with it all.&lt;/p&gt;
 
 &lt;p&gt;Whether it is an aggregation service like &lt;a href=&#34;http://thenews.im/&#34;&gt;thenews.im&lt;/a&gt; or the &lt;a href=&#34;http://flyosity.com/interesting/&#34;&gt;interesting app&lt;/a&gt;, whatever your poison it still doesn’t help with things your friends, co-workers and twitter users share. You need a way to trap that content so when you have a chance to take a break you haven’t forgotten it.&lt;/p&gt;
