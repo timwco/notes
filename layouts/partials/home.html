@@ -1,33 +1,19 @@
-<!-- Brief intro -->
-<div class="header-intro">
-  <h2>Tim Whitacre</h2>
-  <p>
-    <a href="https://github.com/twhitacre">Hacker</a>, 
-    <a href="http://theironyard.com">Educator</a>, 
-    <a href="http://whiskeylist.co/">Whiskey Drinker</a>
-  </p>
-</div>
-<hr />
-<!-- End intro -->
+<h2 class="page-head__blog-desc lap-and-up-2/3">
+  Hacker, educator, and whiskey drinker living in Atlanta.	
+</h2>
 
-<div class="home">
+<ul class="posts-list mb+ js-posts">
+  {{ $paginator := .Paginate (where .Data.Pages "Section" "post") }}
+  {{ range $paginator.Pages }}
+    <li class="post">
+      <h2 style="color: #0088f3">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+      <div>{{ .Date.Format "Jan 2, 2006" }}</div>
+    </li>
+  {{ end }}
+</ul>
 
-  <h4 class="note-heading">Notes</h4>
-
-  <ul id="post-list">
-    {{ $paginator := .Paginate (where .Data.Pages "Section" "post") }}
-    {{ range $paginator.Pages }}
-        <li>
-          <a href="{{ .Permalink }}">
-            <aside class="dates">{{ .Date.Format "Jan 2, 2006" }}</aside>
-          </a>
-          <a href="{{ .Permalink }}">{{ .Title }}</h2></a>
-        </li>
-    {{ end }}
-  </ul>
-
-  <div class="pagination">
-    {{ partial "pagination.html" $paginator }}
-  </div>
-
+<div class="pagination mb+ js-pagination">
+  {{ partial "pagination.html" $paginator }}
 </div>

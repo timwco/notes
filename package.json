@@ -1,0 +1,25 @@
+{
+  "name": "timwco",
+  "version": "1.0.0",
+  "description": "Built using [Hugo](http://gohugo.io).",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twhitacre/GoTim.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twhitacre/GoTim/issues"
+  },
+  "homepage": "https://github.com/twhitacre/GoTim#readme",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-sass": "2.3.2",
+    "gulp-watch": "4.3.9"
+  }
+}

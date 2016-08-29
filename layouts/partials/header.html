@@ -1,43 +1,22 @@
+<!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width initial-scale=1">
-  <meta name="google-site-verification" content="QKJ58FYBKVdFKUZSwhOyW6k2PpxFbCqOIuwSoTANNnw" />
-
   <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
-
-  <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
-  
-  <!-- RSS -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,300italic,900">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
   <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 </head>
-<body>
-  <div class="header-container" id="header-container">
-
-  <!-- Site navigation -->
-    <nav class="site-nav">
-      <div class="trigger">
-        {{ range .Site.Menus.main }}
-          <a class="page-link" href="{{.URL}}">{{ .Name }}</a>
-        {{ end }}
-        <!-- Social Links -->
-        <a class="twitter page-link" href="https://twitter.com/timwco">
-          <span class="socicon-twitter"></span>
-        </a>
-        <a class="github page-link" href="https://github.com/twhitacre">
-          <span class="socicon-github"></span>
-        </a>
+<body class="home fancy-captions format-lede round-avatars">
+  <header class="page-head wrapper" role="banner">
+    <div class="split page-head__section">
+      <div class="split__title">
+        <h1 class="page-head__blog-name milli">
+						<a href="/">Tim Whitacre's Notes</a>
+					</h1>
       </div>
-    </nav>
-
-    <!-- The title of the site -->
-    <header class="site-header">
-      <a href="/">
-        <div class="avatar">
-          <img src="{{ .Site.BaseURL }}img/logo.png">
-        </div>
-      </a>
-    </header>
-
-  </div>
+    </div>
+  </header>

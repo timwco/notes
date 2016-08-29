@@ -1,20 +1,17 @@
 {{ partial "header.html" . }}
 <div class="wrapper">
-  <div class="page-content">
-    <div class="post">
-
-      <header class="post-header">
-        <h1 class="post-title">{{ .Title }}</h1>
-        <p class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</p>
-      </header>
-
-      <article class="post-content">
-        {{ .Content }}
-      </article>
-
+  <article id="post-16" class="post-16 post type-post status-publish format-standard hentry category-uncategorized js-gallery">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <div class="post-body js-gallery mb">
+      {{ .Content }}
     </div>
-  </div>
-  {{ partial "footer.html" . }}
-</div>
 
-    
+    <div class="meta mb+ split split--responsive">
+      <div class="split__title">
+        <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+        <span class=""></span>
+      </div>
+    </div>
+  </article>
+</div>
+{{ partial "footer.html" . }}
