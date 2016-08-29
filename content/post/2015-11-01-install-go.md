@@ -5,7 +5,7 @@ categories:
 date: '2015-11-01'
 permalink: /install-go/
 title: Installing Go
-url: /post/install-go/
+url: /install-go/
 ---
 
 Ok, so I&#8217;ve been playing around with [Go][1] for a while now and have been highly impressed. Recently, when my computer crashed and I was forced to get a new one, I was so busy that I only installed what I needed to get back up and running. This weekend, I had some free time and wanted to play with Go a little more, so I though I&#8217;d share my super simple process of getting it set up. Here we [go][2].
@@ -14,16 +14,9 @@ Ok, so I&#8217;ve been playing around with [Go][1] for a while now and have been
 
 First, like most tools I use on my Mac, I wanted to install Go using [Homebrew][3]. First step.
 
-<pre></p>
-
-
-<p>
-  $ brew upgrade && brew update
-</p>
-
-
-<p>
-  </pre>
+<pre>
+$ brew upgrade && brew update
+</pre>
   
   
   <p>
@@ -31,15 +24,8 @@ First, like most tools I use on my Mac, I wanted to install Go using [Homebrew][
   </p>
   
   
-  <pre></p>
-
-
-<p>
+  <pre>
   $ brew install go
-</p>
-
-
-<p>
   </pre>
   
   
@@ -48,15 +34,8 @@ First, like most tools I use on my Mac, I wanted to install Go using [Homebrew][
   </p>
   
   
-  <pre></p>
-
-
-<p>
+  <pre>
   $ mkdir go
-</p>
-
-
-<p>
   </pre>
   
   
@@ -65,15 +44,8 @@ First, like most tools I use on my Mac, I wanted to install Go using [Homebrew][
   </p>
   
   
-  <pre></p>
-
-
-<p>
+  <pre>
   $ mkdir -p ~/go/src/github.com/username
-</p>
-
-
-<p>
   </pre>
   
   
@@ -82,35 +54,12 @@ First, like most tools I use on my Mac, I wanted to install Go using [Homebrew][
   </p>
   
   
-  <pre></p>
-
-
-<p>
+  <pre>
   # Configuring Go
-</p>
-
-
-<p>
   export GOPATH=$HOME/go
-</p>
-
-
-<p>
   export GOROOT=/usr/local/opt/go/libexec
-</p>
-
-
-<p>
   export PATH=$PATH:$GOPATH/bin
-</p>
-
-
-<p>
   export PATH=$PATH:$GOROOT/bin
-</p>
-
-
-<p>
   </pre>
   
   
@@ -119,20 +68,9 @@ First, like most tools I use on my Mac, I wanted to install Go using [Homebrew][
   </p>
   
   
-  <pre></p>
-
-
-<p>
+  <pre>
   $ go get golang.org/x/tools/cmd/godoc
-</p>
-
-
-<p>
   $ go get golang.org/x/tools/cmd/vet
-</p>
-
-
-<p>
   </pre>
   
   

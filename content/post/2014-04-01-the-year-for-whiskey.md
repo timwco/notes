@@ -5,7 +5,7 @@ categories:
 date: '2014-04-01'
 permalink: /the-year-for-whiskey/
 title: The Year for Whisk(e)y
-url: /post/the-year-for-whiskey/
+url: /the-year-for-whiskey/
 ---
 
 If you’ve followed me on [twitter][1] or [instagram][2] you know that I like to indulge once in a while. So far my drink of choice has been gin. [Plymouth Gin][3] to be exact. As great as gin is, I have been told I should be drinking whiskey, at least some of the time. This includes all forms, bourbon, scotch, irish, rye and the likes. I’ll be honest, so far my favorite is rye with scotch being a close second but I have a long list to try and will hopefully be adding to the list as time goes on.

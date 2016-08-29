@@ -5,7 +5,7 @@ categories:
 date: '2014-05-13'
 permalink: /something-crazy/
 title: Something Crazy
-url: /post/something-crazy/
+url: /something-crazy/
 ---
 
 > I'm going to challenge you to do something crazy&#8230;

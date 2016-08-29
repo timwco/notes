@@ -5,7 +5,7 @@ categories:
 date: '2011-10-27'
 permalink: /the-human-mind/
 title: The Human Mind
-url: /post/the-human-mind/
+url: /the-human-mind/
 ---
 
 <img class="alignleft size-medium wp-image-185" title="The Human Mind" src="http://timw.co/wp-content/uploads/2011/10/humanCodeMind-245x300.jpg" alt="The Human Mind" width="245" height="300" />So yesterday I was thinking it was time to clean up my computer a little bit as I felt it was running a little sluggish. I looked around and finally found a program called &#8220;Mac Keeper&#8221; and thought I'd give it a try. I should have done my research first as it ended up deleting quite a few of things I needed, such as a ton of program settings. Now I'm sure there's a setting that would avoid this but either way it happened.

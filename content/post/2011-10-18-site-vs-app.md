@@ -5,7 +5,7 @@ categories:
 date: '2011-10-18'
 permalink: /site-vs-app/
 title: Site vs App
-url: /post/site-vs-app/
+url: /site-vs-app/
 ---
 
 When working on proposals for new work, I often get a raised eyebrow when someone hears that a simple app can cost a lot more than a large website. They think because the app might only consist of a single page and the site hundreds that the site is somehow much harder to put together.

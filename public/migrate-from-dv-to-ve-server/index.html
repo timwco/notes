@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Migrate from (dv) to (ve) Server &middot; Tim Whitacre | Notes</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,300italic,900">
+  <link rel="stylesheet" href="http://timw.co/notes/css/main.css" />
+  <link href="" rel="alternate" type="application/rss+xml" title="Tim Whitacre | Notes" />
+</head>
+<body>
+  <header class="page-head wrapper">
+    <div class="split page-head__section">
+      <div class="split__title">
+        <h1 class="page-head__blog-name milli">
+					<a href="/notes">Tim Whitacre's Notes</a>
+				</h1>
+      </div>
+    </div>
+  </header>
+
+<div class="wrapper">
+  <article id="post-16" class="post-16 post type-post status-publish format-standard hentry category-uncategorized js-gallery">
+    <h1 class="post-title">Migrate from (dv) to (ve) Server</h1>
+    <div class="post-body js-gallery mb">
+      <p>Both my <a href="http://argyllstudios.com">company</a> an I have been using Media Temple for years now. We started on their Grid Server (shared hosting) but quickly realized we needed a much better server. That&rsquo;s when we moved to their Dedicated Virtual (dv) server. We&rsquo;ve been running that for the past 3 years and have had no problems at all. In fact it&rsquo;s been the best hosting we&rsquo;ve ever had.</p>
+
+<p>Even though business is going well, we started looking at ways to save a little $$ here and there. We decided to re-evaluate our hosting platform and see how we could save money. After much consideration we decided to stick with MT since they&rsquo;ve always been so good to us, but decided to switch to their (ve) server. The specs are almost the same and it&rsquo;s almost half the price.</p>
+
+<p>The difference? Basically with the (dv) you are not only paying for hosting but also for a Plesk license. It gives you a nice GUI for interacting with the server. Since we already work a ton with command line on our other severs we decided we didn&rsquo;t need this luxury.</p>
+
+<p>Ok, enough with the back story. Here&rsquo;s the HOW you&rsquo;ve been waiting for. Keep in mind that this info is based around migrating from a (dv) to a (ve) server BUT it will help anyone looking to get started with MT&rsquo;s (ve) server.</p>
+
+<p>Also, the info below is only for migrating a site to the (ve) and not how to &#8220;set it up&#8221;. If you are looking for that, I recommend <a href="http://donaldjenkins.com/2011/12/switching-from-a-dv-to-a-ve-server-on-media-temple/" target="_blank">this</a> article.</p>
+
+<p>&nbsp;</p>
+
+<ol>
+<li><p>First things first, SSH into your server. (you can use any user that you&rsquo;ve set up or you can even use &lsquo;root&rsquo;)</p></li>
+
+<li><p>Create the new site in your virtual host (replace with your domain and IP address)</p></li>
+</ol>
+
+<p>[bash] sudo vi /etc/apache2/sites-available/DOMAIN.COM [/bash]</p>
+
+<p>Then add the following to the file</p>
+
+<p>[plain]<br />
+<VirtualHost YOUR-IP:80><br />
+ServerAdmin webmaster@DOMAIN.COM<br />
+ServerName DOMAIN.COM<br />
+ServerAlias www.DOMAIN.COM<br />
+DocumentRoot /var/www/DOMAIN.COM/html/<br />
+ErrorLog /var/www/DOMAIN.COM/logs/error.log<br />
+CustomLog /var/www/DOMAIN.COM/logs/access.log combined<br />
+</VirtualHost><br />
+[/plain]</p>
+
+<p>You&rsquo;ll also need to know how to use Vi, and can find out more <a href="http://www.cs.colostate.edu/helpdocs/vi.html" target="_blank">HERE</a>, but for know just know that <strong>:q</strong> will QUIT the file and <strong>:wq</strong> will WRITE it before you QUIT.</p>
+
+<ol>
+<li>Now we need to create the directories we specified above &#8220;html&#8221; and &#8220;logs&#8221;</li>
+</ol>
+
+<p>[bash]<br />
+sudo mkdir -p /var/www/DOMAIN.COM/html<br />
+sudo mkdir -p /var/www/DOMAIN.COM/logs<br />
+[/bash]</p>
+
+<ol>
+<li>Then just add the site to Apache and reload it.</li>
+</ol>
+
+<p>[bash]<br />
+sudo a2ensite DOMAIN.COM<br />
+sudo /etc/init.d/apache2 reload<br />
+[/bash]</p>
+
+<ol>
+<li>Make the folder writeable use either 755 or 777 (just be cautious of security)</li>
+</ol>
+
+<p>[bash] sudo chmod 777 /var/www/DOMAIN.COM/html [/bash]</p>
+
+<ol>
+<li><p>Copy over your files from your (dv) to your (ve) and verify it&rsquo;s all there &#8211; <a href="http://ip-address/domain.com/html/" target="_blank"><a href="http://ip-address/domain.com/html/">http://ip-address/domain.com/html/</a></a></p></li>
+
+<li><p>Now comes the database part. If your site is database-less then you can move on to the last step otherwise see below.</p></li>
+</ol>
+
+<p>First log in to MySQL via command line (I prefer to log in with root)</p>
+
+<p>[bash] mysql -u root -p [/bash]</p>
+
+<p>Second, create the database and set up a user and password</p>
+
+<p>[bash] create database DATABASE-NAME; grant all on DATABASE-NAME.* to &lsquo;USERNAME&rsquo; identified by &lsquo;PASSWORD&rsquo;; [/bash]</p>
+
+<p>Third, exit MySQL and import your .SQL file into the database. I personally found the easiest way to do this is to first upload your .SQL file to the root of your /html/ folder then run the following.</p>
+
+<p>[bash] mysql -u root -p DATABASE-NAME &lt; /var/www/DOMAIN.COM/html/FILENAME.SQL [/bash]</p>
+
+<ol>
+<li>Lastly, log into your OLD (dv) and remove the DNS Zone and then log into your new (ve) and add the new DNS Zone&#8230;. or you could just use MT&rsquo;s built in <a href="http://kb.mediatemple.net/questions/1882/Using+the+Point+to+Another+Server+tool">Point to Another Server Tool</a>.</li>
+</ol>
+
+<p>That should be it&#8230; let me know if you have any issues or run into any problems.</p>
+
+    </div>
+
+    <div class="meta mb+ split split--responsive">
+      <div class="split__title">
+        <time>Jan 27, 2013</time>
+        <span class=""></span>
+      </div>
+    </div>
+  </article>
+</div>
+    <footer class="footer">
+      <div class="wrapper wrapper--wide split split--responsive">
+        <div class="split__title">
+          &copy; 2016 &bull;
+          <a href="http://timw.co">Tim Whitacre</a> &bull;  
+          <a href="https://github.com/twhitacre/notes">Source Code</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

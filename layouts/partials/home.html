@@ -1,19 +1,13 @@
-<h2 class="page-head__blog-desc lap-and-up-2/3">
-  Hacker, educator, and whiskey drinker living in Atlanta.	
-</h2>
-
-<ul class="posts-list mb+ js-posts">
+<ul class="posts-list">
   {{ $paginator := .Paginate (where .Data.Pages "Section" "post") }}
   {{ range $paginator.Pages }}
     <li class="post">
-      <h2 style="color: #0088f3">
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </h2>
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
       <div>{{ .Date.Format "Jan 2, 2006" }}</div>
     </li>
   {{ end }}
 </ul>
 
-<div class="pagination mb+ js-pagination">
+<div class="pagination">
   {{ partial "pagination.html" $paginator }}
 </div>

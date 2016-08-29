@@ -5,7 +5,7 @@ categories:
 date: '2014-08-04'
 permalink: /developer-resources/
 title: Resources
-url: /post/developer-resources/
+url: /developer-resources/
 menu: main
 ---
 

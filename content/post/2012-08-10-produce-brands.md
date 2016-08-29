@@ -5,7 +5,7 @@ categories:
 date: '2012-08-10'
 permalink: /produce-brands/
 title: Produce Brands
-url: /post/produce-brands/
+url: /produce-brands/
 ---
 
 Life tends to stay pretty hectic&#8230;. and I rarely have time to pick up new projects. However, when a good friend approached me with a new idea a month or so back, I knew I would be a fool not to go for it.

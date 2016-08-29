@@ -5,7 +5,7 @@ categories:
 date: '2014-06-05'
 permalink: /joining-the-iron-yard/
 title: Joining the Iron Yard
-url: /post/joining-the-iron-yard/
+url: /joining-the-iron-yard/
 ---
 
 I’ve had the privilege over the years to work with some amazing companies and startups and am excited to bring my experiences into the classroom. For me, being able to spend my days building and talking about development is a dream come true.

@@ -5,7 +5,7 @@ categories:
 date: '2011-10-15'
 permalink: /ios-5-my-thoughts/
 title: iOS 5 - My Thoughts
-url: /post/ios-5-my-thoughts/
+url: /ios-5-my-thoughts/
 ---
 
 Well, I updated to iOS 5.0 just a couple days ago and so far so good. It's hard to believe that an OS update of any kind can show considerable improvement in speed when the device hasn't changed at all&#8230; as I'm still running the iPhone 4.

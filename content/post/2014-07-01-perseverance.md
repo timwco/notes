@@ -5,7 +5,7 @@ categories:
 date: '2014-07-01'
 permalink: /perseverance/
 title: On Perseverance
-url: /post/perseverance/
+url: /perseverance/
 ---
 
 It is hard to believe Atlanta’s first Front End Engineering class is now finishing their fourth week. I think back to the dinner we had together the night before class began. Here was a group coming from all over, meeting for the first time and embarking on a twelve week journey. We all came from different backgrounds, states, and skill levels; yet we all shared a common commitment to grow and learn.

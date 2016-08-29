@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+$mainColor: #4f94cb;
+
 html {
   font-family: sans-serif;
   /* 1 */
@@ -917,7 +920,7 @@ ul, ol, dd {
   line-height: 21px;
   color: #fff;
   border: none;
-  background: #4f94cb;
+  background: $mainColor;
   padding: 9px 24px;
   font-weight: bold; }
   [id="submit"]:hover, [id="submit"]:focus,
@@ -1010,7 +1013,7 @@ ul, ol, dd {
   .text-input:focus {
     background: #fff;
     color: #5b5e5f;
-    border-color: #4f94cb;
+    border-color: $mainColor;
     outline: none;
     box-shadow: 0 0 3px rgba(95, 140, 196, 0.25); }
   .wpcf7-text:disabled,
@@ -1111,7 +1114,7 @@ h4, h5, h6 {
     background: #fff; }
 
 a {
-  color: #4f94cb;
+  color: $mainColor;
   text-decoration: none; }
   a:focus, a:hover {
     text-decoration: underline; }
@@ -1635,6 +1638,11 @@ a {
 .avatar img {
   border-radius: 3px; }
 
+.pagination {
+  padding: 50px 0;
+  text-align: right;
+}
+
 @media screen and (max-width: 719px) {
   .pagination {
     text-align: center; } }
@@ -1671,15 +1679,13 @@ a {
     line-height: 24px;
     font-weight: normal;
     margin-bottom: 7px; }
-  .posts-list a {
-    color: inherit; }
   .posts-list > li {
     list-style: none;
     position: relative; }
     .posts-list > li ~ li {
       border-top: 1px solid #eee;
-      padding-top: 30px;
-      margin-top: 30px; }
+      padding-top: 15px;
+      margin-top: 15px; }
     .posts-list > li div {
       font-size: 11px;
       font-size: 0.6875rem;

@@ -5,7 +5,7 @@ categories:
 date: '2011-10-19'
 permalink: /new-addition/
 title: New Addition
-url: /post/new-addition/
+url: /new-addition/
 ---
 
 [<img class="size-medium wp-image-157 alignright" title="Ernie Ball VP Jr" src="http://timw.co/wp-content/uploads/2011/10/ernieBallvpJr-300x204.jpg" alt="Ernie Ball VP Jr" width="270" height="184" />][1]

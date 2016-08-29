@@ -5,7 +5,7 @@ categories:
 date: '2013-01-04'
 permalink: /development-tools-updated/
 title: Development Tools - Updated
-url: /post/development-tools-updated/
+url: /development-tools-updated/
 ---
 
 Quite often, I get asked what kind of set up I have and what programs I use on a daily basis. About a year ago, I wrote a [post][1], but below is an updated list&#8230; this time I'll stick to development related programs.

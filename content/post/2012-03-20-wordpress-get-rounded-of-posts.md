@@ -5,7 +5,7 @@ categories:
 date: '2012-03-20'
 permalink: /wordpress-get-rounded-of-posts/
 title: 'WordPress - Get Rounded # of Posts'
-url: /post/wordpress-get-rounded-of-posts/
+url: /wordpress-get-rounded-of-posts/
 ---
 
 So, I've written about this before, but decided to post it up here for your (and my) sake as a reference.

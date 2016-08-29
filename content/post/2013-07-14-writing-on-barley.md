@@ -5,7 +5,7 @@ categories:
 date: '2013-07-14'
 permalink: /writing-on-barley/
 title: Writing on Barley
-url: /post/writing-on-barley/
+url: /writing-on-barley/
 ---
 
 I started working for [Plain][1] back in [May][2], but had been working on [Barley][3] since earlier this year. As with most developers, my website always gets neglected [because][4] after working all day long on client's websites, the last thing I want to do at night is work on mine.&nbsp;
