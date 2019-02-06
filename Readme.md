@@ -1,4 +1,4 @@
-epl# Personal Blog
+# Personal Blog
 
 Built using [Hugo](http://gohugo.io).
 
@@ -12,6 +12,10 @@ Built using [Hugo](http://gohugo.io).
 *Server & Watch Site*
 
 `$ hugo server`
+
+*Build Content*
+
+`$ hugo`
 
 *Deploy*
 
