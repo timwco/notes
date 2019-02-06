@@ -2,7 +2,7 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 builddrafts = false
-baseurl = "http://timw.co/notes/"
+baseurl = "https://timw.co/notes/"
 paginate = 10
 title = "Tim Whitacre | Notes"
 
@@ -11,5 +11,5 @@ title = "Tim Whitacre | Notes"
   tag = "tags"
 
 [params]
-  description = "Hacker, Educator, Whiskey Drinker"
+  description = "Hacker, Educator, Whisky Drinker"
   author = "Tim Whitacre"
