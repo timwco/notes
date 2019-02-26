@@ -5,7 +5,7 @@ categories:
 date: '2014-11-17'
 permalink: /vim/
 title: Switching to Vim
-slug: notes/vim
+slug: vim
 ---
 
 As you can see from some of my [previous posts][1], I’ve been a Sublime Text user for along time now. I started with ST2 and have been using ST3 for about the past year. When I started teaching at [The Iron Yard][2]. I did this because it is free, open source and a great tool for new developers to use. I still stand by my choice to use this in class and push my students to use it. As a new developer one of the best skills you can learn is version control. Since Atom has tools for git and Github built right in, it helps drive the point home.

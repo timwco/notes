@@ -5,7 +5,7 @@ categories:
 date: '2012-07-02'
 permalink: /summer-fun/
 title: Summer Fun
-slug: notes/summer-fun
+slug: summer-fun
 ---
 
 <img class="size-medium wp-image-365 alignright" alt="IMG_0004" src="http://timw.co/wp-content/uploads/2012/12/IMG_0004-300x224.jpg" width="300" height="224" />

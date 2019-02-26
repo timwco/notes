@@ -5,7 +5,7 @@ categories:
 date: '2012-01-05'
 permalink: /introducing-the-noise-lounge/
 title: Introducing the Noise Lounge
-slug: notes/introducing-the-noise-lounge
+slug: introducing-the-noise-lounge
 ---
 
 So, now that I'm done ranting about [Godaddy][1] and all of the nonsense going on over there, I decided to focus my efforts on something more positive. Over the holiday break (I took a few days off), I decided to put the finishing touch on a website I'd been wanting to launch for some time.

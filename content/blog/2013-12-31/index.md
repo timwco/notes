@@ -5,7 +5,7 @@ categories:
 date: '2013-12-31'
 permalink: /year-in-review-2013/
 title: 'Year In Review : 2013'
-slug: notes/year-in-review-2013
+slug: year-in-review-2013
 ---
 
 This time of year, there are thousands of articles (likely more) being written with a similar title or one relating to next years resolutions. I know they are cliched and most people don't really care all that much, but I did write an article at [the beginning of this year][1] and wanted to put out a recap of it.

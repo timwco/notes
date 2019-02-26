@@ -5,7 +5,7 @@ categories:
 date: '2011-12-23'
 permalink: /goodbye-go-daddy/
 title: Goodbye Go Daddy!
-slug: notes/goodbye-go-daddy
+slug: goodbye-go-daddy
 ---
 
 Ohhhh man, I can't even begin to explain how happy I am right now. Let me give you a little back story&#8230;

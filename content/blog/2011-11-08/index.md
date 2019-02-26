@@ -5,7 +5,7 @@ categories:
 date: '2011-11-08'
 permalink: /free-stuff-is-fun/
 title: Free Stuff is Fun
-slug: notes/free-stuff-is-fun
+slug: free-stuff-is-fun
 ---
 
 Everyone loves free stuff&#8230; and that's why myself and the others involved in the application [Hosted Notes][1] have decided to make it free. That's right.. free. Now go signup and enjoy!

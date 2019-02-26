@@ -6,7 +6,7 @@ categories:
 date: '2015-04-04'
 permalink: /twitter/
 title: How I Use Twitter
-slug: notes/twitter
+slug: twitter
 ---
 
 First off, I would not consider myself to be a Twitter “power user”, but I do use Twitter a lot. The main reason I use and love twitter is because I treat it as a curated list of great content. It’s curated by people I trust, respect and have actively chosen to keep up with.

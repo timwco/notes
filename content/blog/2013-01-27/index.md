@@ -5,7 +5,7 @@ categories:
 date: '2013-01-27'
 permalink: /migrate-from-dv-to-ve-server/
 title: Migrate from (dv) to (ve) Server
-slug: notes/migrate-from-dv-to-ve-server
+slug: migrate-from-dv-to-ve-server
 ---
 
 Both my [company][1] an I have been using Media Temple for years now. We started on their Grid Server (shared hosting) but quickly realized we needed a much better server. That's when we moved to their Dedicated Virtual (dv) server. We've been running that for the past 3 years and have had no problems at all. In fact it's been the best hosting we've ever had.

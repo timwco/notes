@@ -5,7 +5,7 @@ categories:
 date: '2015-11-09'
 permalink: /draplin-wtf/
 title: Aaron Draplin - WTF Podcast
-slug: notes/draplin-wtf
+slug: draplin-wtf
 ---
 
 So, I&#8217;m a huge Aaron Draplin fan ([proof][1]), and he was recently featured on the [WTF Podcast][2] with Marc Maron. It was on Designer News a week or so ago, but I finally got around to listening to it. Glad I did. Great interview.

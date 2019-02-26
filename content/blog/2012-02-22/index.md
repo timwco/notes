@@ -5,7 +5,7 @@ categories:
 date: '2012-02-22'
 permalink: /reboot/
 title: Reboot
-slug: notes/reboot
+slug: reboot
 ---
 
 So, it's that time again. It comes once a year or so. The time to reformat your hard drive and get your computer as clean as a whistle.

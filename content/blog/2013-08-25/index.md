@@ -5,7 +5,7 @@ categories:
 date: '2013-08-25'
 permalink: /why-i-love-trello/
 title: Why I Love Trello
-slug: notes/why-i-love-trello
+slug: why-i-love-trello
 ---
 
 I'm one of those guys who's always writing down ideas for new projects. Generally these are projects that will push a certain skill of mine to the next level. Sometimes, however they are simply something that I just want to do to for fun with no specific agenda.&nbsp;

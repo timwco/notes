@@ -5,7 +5,7 @@ categories:
 date: '2013-08-24'
 permalink: /expanding-my-toolbelt/
 title: Expanding My Toolbelt
-slug: notes/expanding-my-toolbelt
+slug: expanding-my-toolbelt
 ---
 
 When ever you start a new project it's very important to have the right tools. Today, I decided to tackle one of the many projects that has been looming over my head. Before I got started, I took a step back to figure out which tools I would need. 

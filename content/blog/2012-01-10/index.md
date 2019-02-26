@@ -5,7 +5,7 @@ categories:
 date: '2012-01-10'
 permalink: /duckduckgo-just-works/
 title: DuckDuckGo - just works!
-slug: notes/duckduckgo-just-works
+slug: duckduckgo-just-works
 ---
 
 <img class=" wp-image-250 alignright" title="nduck.v104.normal" src="http://timw.co/wp-content/uploads/2012/01/nduck.v104.normal.png" alt="" width="140" height="92" />Aiming to be a competitor of Google, so far they are doing a fairly good job. I mean let's face it, they'll never be as big as the company but they are fast and show very relevant results.

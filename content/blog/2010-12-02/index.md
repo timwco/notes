@@ -5,7 +5,7 @@ categories:
 date: '2010-12-02'
 permalink: /argyll-studios-re-design/
 title: Argyll Studios Re-Design
-slug: notes/argyll-studios-re-design
+slug: argyll-studios-re-design
 ---
 
 After many months of working on this site, we're finally ready to make our launch public to the world.

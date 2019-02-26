@@ -5,7 +5,7 @@ categories:
 date: '2014-08-17'
 permalink: /learning/
 title: On Learning
-slug: notes/learning
+slug: learning
 ---
 
 We are past the halfway mark for the first Front End class in Atlanta. We are moving fast and everyone is keeping up in an incredible way.

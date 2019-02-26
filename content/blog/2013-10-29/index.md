@@ -5,7 +5,7 @@ categories:
 date: '2013-10-29'
 permalink: /code-tonic-on-github/
 title: Code & Tonic on GitHub
-slug: notes/code-tonic-on-github
+slug: code-tonic-on-github
 ---
 
 About 2 months ago, I launched a new website &#8211; <a href="http://codeandtonic.com/" target="_blank">Code & Tonic</a>. I enjoy blogging but rarely <del>get</del> make time to sit down and do it. So, I had the idea to create a simple website where I could share sites, articles and products that I find awesome but don't want to write an entire article about.
