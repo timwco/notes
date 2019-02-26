@@ -21,7 +21,7 @@ const IndexPage = ({ pageContext }) => {
         {group.map(({ node }, i) => (
           <li className="post" key={i}>
             <h2>
-              <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+              <Link to={`notes${node.fields.slug}`}>{node.frontmatter.title}</Link>
             </h2>
             <div>{node.frontmatter.date}</div>
           </li>
