@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/notes",
   siteMetadata: {
     title: `Tim Whitacre's Notes`,
     author: `Tim Whitacre`,
@@ -7,7 +8,6 @@ module.exports = {
     social: {
       twitter: `timwco`,
     },
-    pathPrefix: "/notes",
   },
   plugins: [
     {
