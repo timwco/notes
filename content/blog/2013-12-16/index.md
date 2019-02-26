@@ -5,7 +5,7 @@ categories:
 date: '2013-12-16'
 permalink: /current-loves-reading-edition/
 title: 'Current Loves : Reading Edition'
-slug: current-loves-reading-edition
+slug: notes/current-loves-reading-edition
 ---
 
 While I don't read as many books as I want (or buy), I do spend quite a bit of time reading on a weekly basis. Listed below is a list of what I'm currently digging. </p> 

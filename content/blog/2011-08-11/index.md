@@ -5,7 +5,7 @@ categories:
 date: '2011-08-11'
 permalink: /purple-door-mobile-app/
 title: Purple Door - Mobile App
-slug: purple-door-mobile-app
+slug: notes/purple-door-mobile-app
 ---
 
 So getting ready to leave for Purple Door Festival 2011 tomorrow and in the meantime I thought I'd throw together a quick mobile app using [jQuery Mobile][1] so I'd have a better way of keeping the schedule in my pocket.

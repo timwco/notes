@@ -5,7 +5,7 @@ categories:
 date: '2012-03-03'
 permalink: /responsive-design-question/
 title: Responsive Design Question
-slug: responsive-design-question
+slug: notes/responsive-design-question
 ---
 
 First off&#8230;. if you are unfamiliar with the term &#8220;responsive web design&#8221; (RWD) check out [A List Apart][1]'s article on [responsive web design][2].

@@ -5,7 +5,7 @@ categories:
 date: '2011-09-03'
 permalink: /back-from-vacation/
 title: Back from Vacation
-slug: back-from-vacation
+slug: notes/back-from-vacation
 ---
 
 Just got back from vacation and it was wonderful. I absolutely love what I do, but even those of us who have our &#8220;dream jobs&#8221; need a vacation from it every once in a while.

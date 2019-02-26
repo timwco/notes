@@ -5,7 +5,7 @@ categories:
 date: '2012-10-03'
 permalink: /guitars-pedals/
 title: Guitars & Pedals
-slug: guitars-pedals
+slug: notes/guitars-pedals
 ---
 
 <img class="size-medium wp-image-370 alignright" alt="IMG_0005" src="http://timw.co/wp-content/uploads/2012/12/IMG_0005-224x300.jpg" width="224" height="300" />It's no secret that I thoroughly enjoy [music][1], but many may not know that I also play myself. I have the privilege of co-leading the student band at [our church][2] on a weekly basis and getting to lead a group of up to 75 middle school students in worship every Sunday.

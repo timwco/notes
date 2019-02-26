@@ -5,7 +5,7 @@ categories:
 date: '2011-11-23'
 permalink: /thankful/
 title: Thankful
-slug: thankful
+slug: notes/thankful
 ---
 
 Well, I've safely made it to Kansas and am going to be spending the next week with most of my immediate family. There are 11 of us in the house plus 4 dogs. It's going to be a great week!

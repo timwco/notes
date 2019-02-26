@@ -5,7 +5,7 @@ categories:
 date: '2015-11-01'
 permalink: /install-go/
 title: Installing Go
-slug: install-go
+slug: notes/install-go
 ---
 
 Ok, so I&#8217;ve been playing around with [Go][1] for a while now and have been highly impressed. Recently, when my computer crashed and I was forced to get a new one, I was so busy that I only installed what I needed to get back up and running. This weekend, I had some free time and wanted to play with Go a little more, so I though I&#8217;d share my super simple process of getting it set up. Here we [go][2].

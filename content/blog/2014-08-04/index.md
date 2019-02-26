@@ -5,7 +5,7 @@ categories:
 date: '2014-08-04'
 permalink: /developer-resources/
 title: Resources
-slug: developer-resources/
+slug: notes/developer-resources/
 menu: main
 ---
 

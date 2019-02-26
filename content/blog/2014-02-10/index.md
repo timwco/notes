@@ -5,7 +5,7 @@ categories:
 date: '2014-02-10'
 permalink: /thoughts-on-email/
 title: Thoughts on Email
-slug: thoughts-on-email
+slug: notes/thoughts-on-email
 ---
 
 First, let me clarify my relationship with email. When it comes the jobs I’ve had, I went from working in an office, to working from home, doing freelance and now back in an office. It might not sound like much of a switch, but each one required different levels of communication to stay up to speed. For instance, my first office job was in a building that had about 150 employees. Not huge, but a lot of people were not close by. When it came to the developers and designers I was currently sharing a project with, we used instant message, but when it came to people in a different division (or people I’d rather not talk to that often) email came in mighty handy.

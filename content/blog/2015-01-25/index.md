@@ -5,7 +5,7 @@ categories:
 date: '2015-01-25'
 permalink: /twenty-fifteen/
 title: Twenty Fifteen
-slug: twenty-fifteen
+slug: notes/twenty-fifteen
 ---
 
 Well, it’s 2015 and I’ve not written in over 2 months. Since it’s a new year, my first post hast to be the grossly overdone “resolution” type. So, here goes.

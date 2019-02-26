@@ -5,7 +5,7 @@ categories:
 date: '2014-03-28'
 permalink: /so-many-bookmarks/
 title: So Many Bookmarks
-slug: so-many-bookmarks
+slug: notes/so-many-bookmarks
 ---
 
 I don’t have to tell you this, but there is a lot of stuff on the internet. Obviously most of it is junk, but there is a lot of great content. This begs the question, “how do I consume it all” or rather, “how do I consume as much as I can that is relevant to me so I can keep up to speed in my industry”. This is not an easy task and because content and the way content is presented continually changes, you almost have no choice but to use some sort of service to help you keep up with it all. 

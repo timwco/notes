@@ -5,7 +5,7 @@ categories:
 date: '2013-07-23'
 permalink: /barley-helper-for-sublime-text/
 title: Barley Helper for Sublime Text
-slug: barley-helper-for-sublime-text
+slug: notes/barley-helper-for-sublime-text
 ---
 
 It's no&nbsp;&nbsp;surprise&nbsp;that I'm a huge fan of Sublime Text and in fact most of [the team][1]&nbsp;I work with&nbsp;uses it as well. When creating [Barley templates][2], we wanted a way to make it a little easier.&nbsp;

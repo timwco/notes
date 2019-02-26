@@ -5,7 +5,7 @@ categories:
 date: '2014-02-20'
 permalink: /current-loves-ios-edition/
 title: 'Current Loves : iOS Edition'
-slug: current-loves-ios-edition
+slug: notes/current-loves-ios-edition
 ---
 
 Well, it’s finally starting to warm up here in Northeast PA and I’m neck deep in finishing a soon to be released update to [Unmark][1] (formerly nilai.co).

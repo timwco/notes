@@ -5,7 +5,7 @@ categories:
 date: '2013-12-15'
 permalink: /my-terminal-setup/
 title: My Terminal Setup
-slug: my-terminal-setup
+slug: notes/my-terminal-setup
 ---
 
 As I <a href="http://tim.getbarley.com/2791/development-tools-updated" target="_blank">mentioned</a> earlier this year, I switched back to the OS X built in terminal for my everyday coding needs. I like to keep as few programs on my computer as possible and since terminal is baked in, I just stick with it. One thing I missed was some of the customization I got when using programs such as iTerm. To combat that, I began looking around for some ways to trick out my terminal, both in appearance but also (and more importantly) in functionality. 

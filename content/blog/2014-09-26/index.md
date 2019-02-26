@@ -5,7 +5,7 @@ categories:
 date: '2014-09-26'
 permalink: /blogging-platforms/
 title: Blogging Platforms
-slug: blogging-platforms
+slug: notes/blogging-platforms
 ---
 
 As an instructor at [The Iron Yard][1], I get asked this question a lot. Here is a VERY simple breakdown of some of my thoughts on different platforms. This is by no means comprehensive, but I feel it gives a pretty solid overview of the platforms I've had experience with.

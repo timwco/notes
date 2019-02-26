@@ -5,7 +5,7 @@ categories:
 date: '2014-02-25'
 permalink: /scranton-meet-coalwork/
 title: Scranton… Meet CoalWork
-slug: scranton-meet-coalwork
+slug: notes/scranton-meet-coalwork
 ---
 
 Coworking is not a new concept at all. In fact not too long ago while working from home I was doing a ton of research for a coworking spot in this area. Unfortunately there wasn’t one… or at least one that I could be a part of.
